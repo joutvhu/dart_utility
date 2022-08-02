@@ -1,18 +1,18 @@
-# Utility
+# Dart Utility
 
-Utility for Dart
+Dart Utility provides operations and functionality to dart.
 
 ## Installation
 
 ```yaml
 # Add into pubspec.yaml
 dependencies:
-  utility: ^1.0.0
+  dart_utility: ^1.0.0
 ```
 
 ```dart
 /// Import library (all utils)
-import 'package:utility/utility.dart';
+import 'package:dart_utility/utility.dart';
 ```
 
 ## Using
@@ -20,7 +20,7 @@ import 'package:utility/utility.dart';
 ### DateTime Util
 
 ```dart
-import 'package:utility/date.dart';
+import 'package:dart_utility/date.dart';
 
 DateTime today = DateTimeUtil.today;
 
@@ -43,7 +43,7 @@ String json = today.toJson();
 ### Iterable Util
 
 ```dart
-import 'package:utility/iterable.dart';
+import 'package:dart_utility/iterable.dart';
 
 /// Unique by Id
 var uniqueProduct = productSource
@@ -53,7 +53,7 @@ var uniqueProduct = productSource
 ### Async Util
 
 ```dart
-import 'package:utility/async.dart';
+import 'package:dart_utility/async.dart';
 
 var finishState = await store
     .firstWhere((state) => state.type == 'finish' && state.name == 'test')

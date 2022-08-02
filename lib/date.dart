@@ -1,8 +1,6 @@
-import 'package:intl/intl.dart';
+import 'constants.dart';
 
 extension DateExtension on DateTime {
-  static final DateFormat jsonFormatter = DateFormat('yyyy-MM-dd\'T\'hh:mm:ss.SSS\'Z\'');
-
   String toJson() {
     return jsonFormatter.format(this);
   }

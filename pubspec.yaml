@@ -1,10 +1,10 @@
-name: utility
-description: Utility for Dart
+name: dart_utility
+description: Dart Utility provides operations and functionality to dart.
 version: 1.0.0
 
-homepage: https://github.com/joutvhu/utility.dart
-repository: https://github.com/joutvhu/utility.dart.git
-issue_tracker: https://github.com/joutvhu/utility.dart/issues
+homepage: https://github.com/joutvhu/dart_utility
+repository: https://github.com/joutvhu/dart_utility.git
+issue_tracker: https://github.com/joutvhu/dart_utility/issues
 
 environment:
   sdk: '>=2.17.1 <3.0.0'
