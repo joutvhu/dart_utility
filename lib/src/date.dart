@@ -48,6 +48,10 @@ class DateTimeUtil {
   DateTimeUtil._();
 
   static DateTime get today {
+    return startOfToday;
+  }
+
+  static DateTime get startOfToday {
     return DateTime.now().startOfDay;
   }
 
