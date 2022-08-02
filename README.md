@@ -46,8 +46,23 @@ String json = today.toJson();
 import 'package:dart_utility/iterable.dart';
 
 /// Unique by Id
-var uniqueProduct = productSource
-    .unique((e) => e.id);
+var uniqueProduct = [{'id': 1}, {'id': 2}, {'id': 1}]
+    .unique((e) => e['id']);
+
+/// Creates a slice of list from start up to, but not including, end.
+var result = [1, 2, 3, 4].slice(2); // => [3, 4]
+
+var result = ['a', 'b', 'c', 'd'].chunk(2); // => [['a', 'b'], ['c', 'd']]
+
+var result = [1, 2, 3].drop(2); // => [3]
+
+var result = [1, 2, 3].dropRight(2); // => [1]
+
+var result = [2, 1, 3, 4, 5].dropRightWhile((element) => element >= 3); // => [2, 1];
+
+var result = [2, 1, 3, 4, 5].dropWhile((element) => element <= 3); // => [4, 5];
+
+var isGrowable = list.isGrowable;
 ```
 
 ### Async Util

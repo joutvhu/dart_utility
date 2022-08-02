@@ -1,5 +1,5 @@
 import 'constants.dart';
-import 'list.dart';
+import 'iterable.dart';
 import 'number.dart';
 
 extension StringExtension on String {
