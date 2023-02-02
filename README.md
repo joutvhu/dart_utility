@@ -7,7 +7,7 @@ Dart Utility provides operations and functionality to dart.
 ```yaml
 # Add into pubspec.yaml
 dependencies:
-  dart_utility: ^1.0.0
+  dart_utility: ^1.0.1
 ```
 
 ```dart
